@@ -9,13 +9,13 @@ bot = commands.Bot(command_prefix='!')
 async def on_ready():
     print(f'Logged in as {bot.user.name}')
     # Obtener el canal específico por su ID
-    channel = bot.get_channel(1112178231437709402) #Aqui el id del canal de discord
+    channel = bot.get_channel(1112191051709550692)
     if channel:
         await channel.send("¡Bot conectado y listo para responder!")
 
 @bot.event
 async def on_message(message):
-    if message.channel.id == 1112178231437709402: #Aqui el id del canal de discord
+    if message.channel.id == 1112191051709550692:
         if message.author == bot.user:
             return
 
@@ -38,5 +38,13 @@ async def on_message(message):
         await message.channel.send(answer)
 
     await bot.process_commands(message)
+
+
+@bot.command()
+async def limpiar_mensajes(ctx, amount: int):
+    channel = ctx.channel
+    await channel.purge(limit=amount)
+    
+ 
 
 bot.run('Xxx') #TOKEN BOT https://discord.com/developers/applications

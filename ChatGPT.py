@@ -7,7 +7,7 @@ bot = commands.Bot(command_prefix='!')
 
 @bot.event
 async def on_ready():
-    print(f'Logged in as {bot.user.name}')
+    print(f'Conectado como {bot.user.name}')
 
 @bot.command()
 async def chat(ctx, *, message):

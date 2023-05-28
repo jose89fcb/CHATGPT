@@ -7,7 +7,7 @@ comando parar borrar los mensajes del chat
 <img src="https://i.imgur.com/pkwtDrc.png">
 
 
-Comando para usarlo:
+Comando para usarlo: <a href="https://github.com/jose89fcb/CHATGPT-python-discord/blob/main/ChatGPT.py">click aquí</a>
 <br>
 !chat hola
 

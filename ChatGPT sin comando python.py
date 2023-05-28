@@ -7,7 +7,7 @@ bot = commands.Bot(command_prefix='!')
 
 @bot.event
 async def on_ready():
-    print(f'Logged in as {bot.user.name}')
+    print(f'Conectado como {bot.user.name}')
     # Obtener el canal específico por su ID
     channel = bot.get_channel(1112191051709550692)
     if channel:

@@ -1,4 +1,4 @@
-Sin comando:(Podras hablas sin comando) <a href="https://github.com/jose89fcb/CHATGPT-python-discord/blob/main/ChatGPT%20sin%20comando%20python.py">click aquí</a>
+Sin comando:(Podras hablar sin comando) <a href="https://github.com/jose89fcb/CHATGPT-python-discord/blob/main/ChatGPT%20sin%20comando%20python.py">click aquí</a>
   <br>
 <br>
 comando parar borrar los mensajes del chat

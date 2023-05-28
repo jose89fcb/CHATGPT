@@ -1,4 +1,4 @@
-Sin comando:
+Sin comando:(Podras hablas sin comando)
 <br>
 <br>
 comando parar borrar los mensajes del chat

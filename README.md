@@ -1,3 +1,7 @@
+Sin comando:
+<img src="https://i.imgur.com/pkwtDrc.png">
+
+
 Comando para usarlo:
 <br>
 !chat hola

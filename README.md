@@ -1,4 +1,5 @@
 Sin comando:
+<br>
 <img src="https://i.imgur.com/pkwtDrc.png">
 
 

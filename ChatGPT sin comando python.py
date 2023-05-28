@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import openai
 
-openai.api_key = "XXx" #API KEY https://platform.openai.com/account/api-keys
+openai.api_key = "Xxx" #API KEY https://platform.openai.com/account/api-keys
 bot = commands.Bot(command_prefix='!')
 
 @bot.event
@@ -44,7 +44,8 @@ async def on_message(message):
 async def limpiar_mensajes(ctx, amount: int):
     channel = ctx.channel
     await channel.purge(limit=amount)
-    
- 
+
 
 bot.run('Xxx') #TOKEN BOT https://discord.com/developers/applications
+
+
